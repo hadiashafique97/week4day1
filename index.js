@@ -59,3 +59,15 @@ console.log(dart)
 wolfy.shift()
 wolfy.unshift('Gameboy')
 console.log(wolfy)
+
+
+// Yell at the Ninja Turtles
+
+let myTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo']
+
+const yellMyTurtles= (arr)=>{
+for( const element of arr){
+    console.log(element.toUpperCase())
+}
+}
+yellMyTurtles(myTurtles)
